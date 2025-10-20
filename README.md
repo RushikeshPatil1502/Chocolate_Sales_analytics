@@ -10,7 +10,7 @@ It highlights trends in **shipments, profit percentage, and product performance*
 **Chocolate Sales Analysis Dashboard**
 
 <p align="center">
-  <img src="Assets/Chocolate_sale_analysis.png" alt="Chocolate Sales Analysis Dashboard" width="800">
+  <img src="Assets/Chocolate_sale_analysis.png" alt="Chocolate Sales Analysis Dashboard" width="850"/>
 </p>
 
 ---
