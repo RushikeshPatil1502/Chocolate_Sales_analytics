@@ -7,7 +7,11 @@ It highlights trends in **shipments, profit percentage, and product performance*
 
 ## 📊 Dashboard Preview
 
-![Chocolate Sales Analysis Dashboard](Assets/Chocolate_sale_analysis.png)
+**Chocolate Sales Analysis Dashboard**
+
+<p align="center">
+  <img src="Assets/Chocolate_sale_analysis.png" alt="Chocolate Sales Analysis Dashboard" width="800">
+</p>
 
 ---
 
@@ -33,11 +37,3 @@ It highlights trends in **shipments, profit percentage, and product performance*
   - Variance & Growth Rate
 
 ---
-
-## 🧠 DAX Highlights
-
-Some of the key DAX expressions used:
-```DAX
-Profit % = DIVIDE(SUM(Sales[Profit]), SUM(Sales[Revenue]), 0)
-Low Box Shipments = CALCULATE(COUNT(Sales[Shipment_ID]), Sales[Boxes] < 5)
-Revenue Growth % = DIVIDE(SUM(Sales[Revenue]) - CALCULATE(SUM(Sales[Revenue]), DATEADD(Sales[Date], -1, YEAR)), CALCULATE(SUM(Sales[Revenue]), DATEADD(Sales[Date], -1, YEAR)))
